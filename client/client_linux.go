@@ -22,9 +22,9 @@ import (
 
 	"unsafe"
 
+	labi "github.com/0x416e746f6e/go-tdx-guest/client/linuxabi"
 	"github.com/google/go-configfs-tsm/configfs/linuxtsm"
 	"github.com/google/go-configfs-tsm/report"
-	labi "github.com/google/go-tdx-guest/client/linuxabi"
 	"golang.org/x/sys/unix"
 )
 

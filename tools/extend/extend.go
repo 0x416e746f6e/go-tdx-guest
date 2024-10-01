@@ -22,7 +22,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/google/go-tdx-guest/rtmr"
+	"github.com/0x416e746f6e/go-tdx-guest/rtmr"
 	"github.com/google/logger"
 )
 

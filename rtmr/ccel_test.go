@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/google/go-tdx-guest/abi"
+	"github.com/0x416e746f6e/go-tdx-guest/abi"
 )
 
 func TestReplayCcelWithTdQuote(t *testing.T) {

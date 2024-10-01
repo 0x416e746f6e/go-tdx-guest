@@ -20,8 +20,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/google/go-tdx-guest/abi"
-	labi "github.com/google/go-tdx-guest/client/linuxabi"
+	"github.com/0x416e746f6e/go-tdx-guest/abi"
+	labi "github.com/0x416e746f6e/go-tdx-guest/client/linuxabi"
 	"github.com/google/logger"
 )
 

@@ -21,10 +21,10 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/google/go-tdx-guest/abi"
-	ccpb "github.com/google/go-tdx-guest/proto/checkconfig"
-	pb "github.com/google/go-tdx-guest/proto/tdx"
-	vr "github.com/google/go-tdx-guest/verify"
+	"github.com/0x416e746f6e/go-tdx-guest/abi"
+	ccpb "github.com/0x416e746f6e/go-tdx-guest/proto/checkconfig"
+	pb "github.com/0x416e746f6e/go-tdx-guest/proto/tdx"
+	vr "github.com/0x416e746f6e/go-tdx-guest/verify"
 	"github.com/google/logger"
 	"go.uber.org/multierr"
 )

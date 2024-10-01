@@ -25,9 +25,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/google/go-tdx-guest/client"
-	labi "github.com/google/go-tdx-guest/client/linuxabi"
-	pb "github.com/google/go-tdx-guest/proto/tdx"
+	"github.com/0x416e746f6e/go-tdx-guest/client"
+	labi "github.com/0x416e746f6e/go-tdx-guest/client/linuxabi"
+	pb "github.com/0x416e746f6e/go-tdx-guest/proto/tdx"
 	"github.com/google/logger"
 	"google.golang.org/protobuf/encoding/prototext"
 )

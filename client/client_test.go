@@ -19,9 +19,9 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/0x416e746f6e/go-tdx-guest/abi"
+	test "github.com/0x416e746f6e/go-tdx-guest/testing"
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/go-tdx-guest/abi"
-	test "github.com/google/go-tdx-guest/testing"
 	"google.golang.org/protobuf/testing/protocmp"
 )
 

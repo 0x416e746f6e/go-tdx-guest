@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/go-tdx-guest/abi"
-	"github.com/google/go-tdx-guest/pcs"
-	pb "github.com/google/go-tdx-guest/proto/tdx"
-	testcases "github.com/google/go-tdx-guest/testing"
-	"github.com/google/go-tdx-guest/testing/testdata"
+	"github.com/0x416e746f6e/go-tdx-guest/abi"
+	"github.com/0x416e746f6e/go-tdx-guest/pcs"
+	pb "github.com/0x416e746f6e/go-tdx-guest/proto/tdx"
+	testcases "github.com/0x416e746f6e/go-tdx-guest/testing"
+	"github.com/0x416e746f6e/go-tdx-guest/testing/testdata"
 	"github.com/google/logger"
 )
 

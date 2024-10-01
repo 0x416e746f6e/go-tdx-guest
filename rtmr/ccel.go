@@ -20,14 +20,14 @@ package rtmr
 import (
 	"fmt"
 
+	"github.com/0x416e746f6e/go-tdx-guest/abi"
+	tdxpb "github.com/0x416e746f6e/go-tdx-guest/proto/tdx"
+	"github.com/0x416e746f6e/go-tdx-guest/validate"
+	"github.com/0x416e746f6e/go-tdx-guest/verify"
 	"github.com/google/go-eventlog/ccel"
 	"github.com/google/go-eventlog/common"
 	"github.com/google/go-eventlog/proto/state"
 	"github.com/google/go-eventlog/register"
-	"github.com/google/go-tdx-guest/abi"
-	tdxpb "github.com/google/go-tdx-guest/proto/tdx"
-	"github.com/google/go-tdx-guest/validate"
-	"github.com/google/go-tdx-guest/verify"
 )
 
 // ParseTdxCcelOpts allows for customizing the functionality of VerifyAttestation's TDX verification.

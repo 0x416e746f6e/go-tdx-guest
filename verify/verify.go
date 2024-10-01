@@ -34,11 +34,11 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/google/go-tdx-guest/abi"
-	"github.com/google/go-tdx-guest/pcs"
-	ccpb "github.com/google/go-tdx-guest/proto/checkconfig"
-	pb "github.com/google/go-tdx-guest/proto/tdx"
-	"github.com/google/go-tdx-guest/verify/trust"
+	"github.com/0x416e746f6e/go-tdx-guest/abi"
+	"github.com/0x416e746f6e/go-tdx-guest/pcs"
+	ccpb "github.com/0x416e746f6e/go-tdx-guest/proto/checkconfig"
+	pb "github.com/0x416e746f6e/go-tdx-guest/proto/tdx"
+	"github.com/0x416e746f6e/go-tdx-guest/verify/trust"
 	"github.com/google/logger"
 	"go.uber.org/multierr"
 )

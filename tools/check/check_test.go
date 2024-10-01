@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"testing"
 
-	ccpb "github.com/google/go-tdx-guest/proto/checkconfig"
+	ccpb "github.com/0x416e746f6e/go-tdx-guest/proto/checkconfig"
 	"github.com/google/logger"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
