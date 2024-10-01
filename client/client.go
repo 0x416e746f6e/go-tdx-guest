@@ -19,7 +19,6 @@ package client
 import (
 	"flag"
 	"fmt"
-	"os"
 
 	"github.com/google/go-tdx-guest/abi"
 	labi "github.com/google/go-tdx-guest/client/linuxabi"
@@ -151,8 +150,4 @@ func fallbackToDeviceForRawQuote(reportData [64]byte) ([]uint8, error) {
 	bytes, err := getRawQuoteViaDevice(device, reportData)
 	device.Close()
 	return bytes, err
-}
-
-func init() {
-	logger.Init("", false, false, os.Stdout)
 }

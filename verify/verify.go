@@ -1402,7 +1402,4 @@ func RootOfTrustToOptions(rot *ccpb.RootOfTrust) (*Options, error) {
 func init() {
 	root, _ := pem.Decode(defaultRootCertByte)
 	trustedRootCertificate, _ = x509.ParseCertificate(root.Bytes)
-
-	// Initialize logger
-	logger.Init("", false, false, os.Stdout)
 }
